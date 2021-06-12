@@ -21,7 +21,7 @@ do
 	for GKE in ${GKE_LIST}
 	do
 		echo "${COUNTER} ) ${PROJECT} ${GKE}" 
-		echo "${COUNTER} ${PROJECT} ${GKE} ${PORT_COUNTER} ${GKE_ZONE} " >> options.txt
+		echo "${COUNTER} ${PROJECT} ${GKE} ${PORT_COUNTER}" >> options.txt
 		let PORT_COUNTER++
 		let COUNTER++
 
